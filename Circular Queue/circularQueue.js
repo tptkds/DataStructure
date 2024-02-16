@@ -55,17 +55,3 @@ class CircularQueue {
     }
 }
 
-let queue = new CircularQueue(10);
-queue.enqueue(1);
-queue.enqueue(2);
-queue.enqueue(1);
-queue.enqueue(2);
-queue.enqueue(1);
-queue.enqueue(2);
-queue.enqueue(1);
-queue.enqueue(2);
-queue.enqueue(1);
-queue.enqueue(2);
-
-queue.dequeue()
-console.log(queue.getBuffer());
